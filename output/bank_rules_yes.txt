@@ -1,0 +1,10 @@
+5 housing=no call_duration=100-500s past_marketing=success ==> subscribed=yes #SUP: 582 #CONF: 0.714987714987715
+7 loan=no call_duration=100-500s past_marketing=success ==> subscribed=yes #SUP: 563 #CONF: 0.7144670050761421
+5 housing=no loan=no call_duration=100-500s past_marketing=success ==> subscribed=yes #SUP: 563 #CONF: 0.7144670050761421
+7 call_duration=100-500s past_marketing=success ==> subscribed=yes #SUP: 582 #CONF: 0.7141104294478527
+7 loan=no past_marketing=success ==> subscribed=yes #SUP: 705 #CONF: 0.7035928143712575
+5 housing=no loan=no past_marketing=success ==> subscribed=yes #SUP: 705 #CONF: 0.7035928143712575
+5 housing=no past_marketing=success ==> subscribed=yes #SUP: 729 #CONF: 0.7016361886429259
+7 past_marketing=success ==> subscribed=yes #SUP: 729 #CONF: 0.7009615384615384
+8 past_marketing=success balance=below-1k ==> subscribed=yes #SUP: 463 #CONF: 0.6818851251840943
+5 loan=no past_marketing=success balance=below-1k ==> subscribed=yes #SUP: 463 #CONF: 0.6818851251840943

@@ -1,0 +1,10 @@
+4 call_duration=100s-below job=blue-collar ==> subscribed=no #SUP: 950 #CONF: 1.0
+4 call_duration=100s-below age=50s ==> subscribed=no #SUP: 502 #CONF: 1.0
+12 marital=married job=services ==> subscribed=no #SUP: 564 #CONF: 1.0
+12 marital=married balance=negative ==> subscribed=no #SUP: 516 #CONF: 1.0
+12 housing=yes balance=negative ==> subscribed=no #SUP: 623 #CONF: 1.0
+4 default_credit=no call_duration=100s-below job=blue-collar ==> subscribed=no #SUP: 938 #CONF: 1.0
+4 default_credit=no call_duration=100s-below age=50s ==> subscribed=no #SUP: 490 #CONF: 1.0
+4 loan=no call_duration=100s-below job=blue-collar ==> subscribed=no #SUP: 811 #CONF: 1.0
+4 call_duration=100s-below past_marketing=unknown job=blue-collar ==> subscribed=no #SUP: 820 #CONF: 1.0
+4 call_duration=100s-below marital=married housing=yes ==> subscribed=no #SUP: 734 #CONF: 1.0

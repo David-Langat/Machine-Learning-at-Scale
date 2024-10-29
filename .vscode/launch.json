@@ -1,0 +1,68 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BankPatternMiner",
+      "request": "launch",
+      "mainClass": "BankPatternMiner",
+      "projectName": "DataMining_58a37a92"
+    },
+    {
+      "type": "java",
+      "name": "Run BankAssociationRulesAnalysis",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.BankAssociationRulesAnalysis",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run BankPatternMiner",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.BankPatternMiner",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run BankPatternMiningComparison",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.BankPatternMiningComparison",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run ClassificationTask",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.ClassificationTask",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run ClassificationTask2",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.ClassificationTask2",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run MaximumPatternMiner",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.MaximumPatternMiner",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    },
+    {
+      "type": "java",
+      "name": "Run NewsClassification",
+      "request": "launch",
+      "mainClass": "com.davidlangat.datamining.NewsClassification",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole"
+    }
+  ]
+}
