@@ -1,4 +1,3 @@
-
 # Large Scale Data Mining Project
 
 This project is a comprehensive collection of data mining tasks implemented in Java, leveraging the Weka and SPMF libraries. It was developed to demonstrate the practical application of machine learning and pattern mining techniques on real-world datasets.
@@ -8,6 +7,7 @@ The project is organized into a series of modular, reusable Java classes, each a
 ## Table of Contents
 
 - [Key Features](#key-features)
+- [Detailed Analysis Results](#detailed-analysis-results)
 - [Tasks Implemented](#tasks-implemented)
   - [Task 1: Association Mining](#task-1-association-mining)
   - [Task 2: Predictive Classification](#task-2-predictive-classification)
@@ -38,6 +38,10 @@ This project implements a variety of data mining techniques, from data preproces
 *   **Text Analytics and NLP:**
     *   An end-to-end text classification pipeline for categorizing news articles.
     *   Advanced text preprocessing using Weka's `StringToWordVector` filter, incorporating **TF-IDF transformations**, **stemming**, and **stopword removal** to build a robust feature set.
+
+## Detailed Analysis Results
+
+For a comprehensive overview of the experimental results, performance metrics, and insights derived from each data mining task, please refer to the [Detailed Analysis Results](analysis_results.md) document.
 
 ## Tasks Implemented
 
@@ -126,7 +130,7 @@ This task focuses on classifying news documents into different categories using 
 
 ## Contributing
 
-Contributions are welcome! If you have ideas to extend or improve the project, please fork the repository and submit a pull request.
+Contributions are welcome! If you have ideas to extend and improve the project, please fork the repository and submit a pull request.
 
 ## License
 
