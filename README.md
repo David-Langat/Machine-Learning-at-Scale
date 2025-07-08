@@ -1,3 +1,4 @@
+
 # Large Scale Data Mining Project
 
 This project is a comprehensive collection of data mining tasks implemented in Java, leveraging the Weka and SPMF libraries. It was developed to demonstrate the practical application of machine learning and pattern mining techniques on real-world datasets.
@@ -81,10 +82,11 @@ This task focuses on classifying news documents into different categories using 
 
 *   **Java JDK** (version 1.8 or above)
 *   **Visual Studio Code** with the **Java Extension Pack** (recommended)
+*   **Eclipse IDE** (optional)
 
 ### Setup
 
-1.  Clone the repository and open the project folder as the workspace in Visual Studio Code.
+1.  Clone the repository and open the project folder as the workspace in Visual Studio Code or import it into Eclipse.
 2.  Ensure the `spmf-1.jar` and `weka.jar` files are located in the `lib/` directory. The project is pre-configured to use them.
 3.  Compile the project from the root directory:
     ```bash
@@ -97,7 +99,12 @@ This task focuses on classifying news documents into different categories using 
     *   Navigate to the **Run and Debug** tab.
     *   Select a launch configuration from the dropdown (e.g., "Run BankPatternMiner") and press the **Start Debugging** (F5) button.
 
-2.  **From the Command Line**:
+2.  **In Eclipse IDE**:
+    *   Import the project as an existing Java project.
+    *   Ensure the `spmf-1.jar` and `weka.jar` files are added to the project's build path (Right-click Project -> Build Path -> Configure Build Path -> Libraries -> Add External JARs).
+    *   Right-click on the desired Java class (e.g., `BankPatternMiner.java`) and select **Run As** -> **Java Application**.
+
+3.  **From the Command Line**:
     *   Use the following command, replacing `ClassName` with the desired class to execute:
     ```bash
     # On Windows
