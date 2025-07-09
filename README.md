@@ -18,7 +18,6 @@ The project is organized into a series of modular, reusable Java classes, each a
 - [How to Run](#how-to-run)
 - [Configuration Files](#configuration-files)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Key Features
@@ -128,9 +127,6 @@ This task focuses on classifying news documents into different categories using 
 *   **FileNotFoundException**: Ensure that the dataset paths in the Java source files are correct and point to the `datasets/` directory.
 *   **Library Issues**: Verify that both `spmf-1.jar` and `weka.jar` are present in the `lib/` folder and that the classpath is set correctly.
 
-## Contributing
-
-Contributions are welcome! If you have ideas to extend and improve the project, please fork the repository and submit a pull request.
 
 ## License
 
